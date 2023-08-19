@@ -1,3 +1,5 @@
+[![FGO Login Sched](https://github.com/FleetingComet/FGO-Daily-Login/actions/workflows/run.yml/badge.svg?event=schedule)](https://github.com/FleetingComet/FGO-Daily-Login/actions/workflows/run.yml)
+
 <img width="100%" style="border: 1px solid black" src="https://i.imgur.com/bre34Xl.png">
 
 # FGO Daily Login
