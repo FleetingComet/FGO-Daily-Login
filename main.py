@@ -41,7 +41,7 @@ def get_latest_verCode():
 
 
 def main():
-    #if userNums == authKeyNums and userNums == secretKeyNums:
+    if userNums == authKeyNums and userNums == secretKeyNums:
         logger.info('Getting Lastest Assets Info')
         fgourl.set_latest_assets()
 
