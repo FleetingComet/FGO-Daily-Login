@@ -6,8 +6,10 @@ on:
   pull_request:
     branches: [master]
   schedule:
-    - cron: "30 10 * * *"
-    - cron: "30 19 * * *"
+    # NA : 12:30PM GMT+8
+    - cron: "30 04 * * *"
+    # JP : 4:30AM GMT+8
+    - cron: "30 20 * * *"
   workflow_dispatch:
 
 jobs:
