@@ -22,11 +22,14 @@ jobs:
         python-version: [3.8]
 
     steps:
-      - name: Install Requeriments
-        run: pip install -r https://raw.githubusercontent.com/FleetingComet/FGO-Daily-Login/master/requirements.txt
-
       - name: Gettings files from Repo
         uses: actions/checkout@v3
+        
+      - name : Use Setup Python
+        uses: actions/setup-python@v4
+        
+      - name: Install Requirements
+        run: pip install -r https://raw.githubusercontent.com/FleetingComet/FGO-Daily-Login/master/requirements.txt --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --upgrade pip
 
       - name: Execute main script
         run: |
