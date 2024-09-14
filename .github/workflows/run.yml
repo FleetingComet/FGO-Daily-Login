@@ -1,17 +1,17 @@
 name: FGO Login System
 
 on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
-  schedule:
-    # NA : 12:30PM GMT+8
-    - cron: "30 04 * * *"
-    # JP : 4:30AM GMT+8
-    - cron: "30 20 * * *"
-    # All : 5:00PM GMT+8
-    - cron : "30 09 * * *"
+  # push:
+  #   branches: [master]
+  # pull_request:
+  #   branches: [master]
+  # schedule:
+  #   # NA : 12:30PM GMT+8
+  #   - cron: "30 04 * * *"
+  #   # JP : 4:30AM GMT+8
+  #   - cron: "30 20 * * *"
+  #   # All : 5:00PM GMT+8
+  #   - cron : "30 09 * * *"
   workflow_dispatch:
 
 jobs:
